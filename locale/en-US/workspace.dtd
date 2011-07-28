@@ -1,0 +1,45 @@
+<!-- These definitions should match the ones in
+     chrome://browser/locale/browser.dtd! -->
+
+<!ENTITY closeCmd.accesskey "C">
+<!ENTITY closeCmd.key "W">
+<!ENTITY closeCmd.label "Close">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY copyCmd.key "C">
+<!ENTITY copyCmd.label "Copy">
+<!ENTITY cutCmd.accesskey "t">
+<!ENTITY cutCmd.key "X">
+<!ENTITY cutCmd.label "Cut">
+<!ENTITY editMenu.accesskey "E">
+<!ENTITY editMenu.label "Edit">
+<!ENTITY errorConsoleCmd.accesskey "C">
+<!ENTITY errorConsoleCmd.commandkey "j">
+<!ENTITY errorConsoleCmd.label "Error Console">
+<!ENTITY fileMenu.accesskey "F">
+<!ENTITY fileMenu.label "File">
+<!ENTITY findAgainCmd.accesskey "g">
+<!ENTITY findAgainCmd.label "Find Again">
+<!ENTITY findOnCmd.accesskey "F">
+<!ENTITY findOnCmd.label "Find in This Page…">
+<!ENTITY newNavigatorCmd.key "N">
+<!ENTITY openFileCmd.accesskey "O">
+<!ENTITY openFileCmd.commandkey "o">
+<!ENTITY openFileCmd.label "Open file…">
+<!ENTITY pasteCmd.accesskey "P">
+<!ENTITY pasteCmd.key "V">
+<!ENTITY pasteCmd.label "Paste">
+<!ENTITY printCmd.accesskey "P">
+<!ENTITY printCmd.commandkey "P">
+<!ENTITY printCmd.label "Print…">
+<!ENTITY redoCmd.accesskey "R">
+<!ENTITY redoCmd.label "Redo">
+<!ENTITY savePageCmd.accesskey "A">
+<!ENTITY savePageCmd.commandkey "s">
+<!ENTITY selectAllCmd.accesskey "A">
+<!ENTITY selectAllCmd.key "A">
+<!ENTITY selectAllCmd.label "Select All">
+<!ENTITY toolsMenu.accesskey "T">
+<!ENTITY toolsMenu.label "Tools">
+<!ENTITY undoCmd.accesskey "U">
+<!ENTITY undoCmd.key "Z">
+<!ENTITY undoCmd.label "Undo">

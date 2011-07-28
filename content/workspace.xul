@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE window [
-<!ENTITY % browserDTD SYSTEM "chrome://browser/locale/browser.dtd" >
+<!ENTITY % browserDTD SYSTEM "chrome://workspace/locale/workspace.dtd" >
  %browserDTD;
 ]>
 <?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
