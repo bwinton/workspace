@@ -9,6 +9,7 @@
         <em:creator>Rob Campbell</em:creator>
         <em:contributor>Erik Vold</em:contributor>
         <em:contributor>David Dahl</em:contributor>
+        <em:contributor>Blake Winton</em:contributor>
         <em:homepageURL>http://antennasoft.net/robcee/workspace</em:homepageURL>
         <em:iconURL>chrome://workspace/content/icon-48.png</em:iconURL>
         <em:icon64URL>chrome://workspace/content/icon-64.png</em:icon64URL>
@@ -22,5 +23,15 @@
                 <em:maxVersion>4.0.*</em:maxVersion>
            </Description>
         </em:targetApplication>
+
+        <em:targetApplication>
+           <!-- Thunderbird -->
+           <Description>
+                <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+                <em:minVersion>5</em:minVersion>
+                <em:maxVersion>8.0a1</em:maxVersion>
+          </Description>
+        </em:targetApplication>
+
     </Description>
 </RDF>

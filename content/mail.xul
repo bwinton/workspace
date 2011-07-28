@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay PUBLIC "-//MOZILLA//DTD XUL V1.0//EN" "http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+
+<overlay id="workspace-browser-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <menupopup id="taskPopup">
+    <menuitem id="appmenu_workspace"
+              label="Workspace"
+              key="ws-newWorkspaceKey"
+              oncommand="openWorkspace();"
+              class="menu-iconic-wide"
+              insertafter="javascriptConsole"/>
+  </menupopup>
+</overlay>
