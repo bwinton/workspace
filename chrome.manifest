@@ -1,4 +1,5 @@
 content workspace content/
+resource workspace modules/
 locale workspace en-US locale/en-US/
 overlay chrome://browser/content/browser.xul chrome://workspace/content/browser.xul
 overlay chrome://browser/content/browser.xul chrome://workspace/content/tools-menuitem.xul

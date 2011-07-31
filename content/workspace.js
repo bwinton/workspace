@@ -17,8 +17,8 @@ const Ci = Components.interfaces;
 const Cu = Components.utils;
 
 Cu.import("resource://gre/modules/Services.jsm");
-Cu.import("resource:///modules/PropertyPanel.jsm");
-Cu.import("resource://gre/modules/HUDService.jsm");
+Cu.import("resource://workspace/PropertyPanel.jsm");
+Cu.import("resource://workspace/HUDService.jsm");
 
 const WORKSPACE_CONTEXT_CONTENT = 1;
 const WORKSPACE_CONTEXT_CHROME = 2;
@@ -42,16 +42,17 @@ Workspace = {
     return "";
   },
 
-  get browserWindow() Services.wm.getMostRecentWindow("navigator:browser"),
+  get browserWindow() Services.wm.getMostRecentWindow("mail:3pane"),
 
   get gBrowser() {
     let recentWin = this.browserWindow;
-    return (recentWin) ? recentWin.gBrowser : null;
+    // FIXME this is not necessarily a content browser, BEWARE YOU FOOL
+    return (recentWin) ? recentWin.getBrowser() : null;
   },
 
   get sandbox() {
     // need to cache sandboxes if currentBrowser == previousBrowser
-    let contentWindow = this.gBrowser.selectedBrowser.contentWindow;
+    let contentWindow = this.gBrowser.contentWindow;
     let sandbox = new Cu.Sandbox(contentWindow,
       { sandboxPrototype: contentWindow, wantXrays: false });
     return sandbox;
